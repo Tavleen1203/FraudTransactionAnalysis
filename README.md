@@ -1,6 +1,6 @@
-#### Analysing Fraudulent Transactions
+# Analysing Fraudulent Transactions
 
-# Overview
+## Overview
 This project focuses on building a fraud detection system for financial transactions using machine learning. The goal is to predict fraudulent transactions by analyzing various transaction details. The dataset consists of several features, including transaction amount, type, sender and receiver account details, and account balances. The challenge involves detecting fraud in a highly imbalanced dataset, where fraudulent transactions are rare.
 
 ![image](https://github.com/user-attachments/assets/a735731a-8c85-4b6e-a7dc-7896c4cf136f)
@@ -13,7 +13,7 @@ We used four different strategies for model development:
 
 Each model was evaluated using performance metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
 
-# 1. Data Preprocessing and Cleaning
+### Data Preprocessing and Cleaning
 
 Before developing the models, we performed essential data cleaning tasks:
 - **Missing values**: We identified any missing values in the dataset and handled them appropriately, either by filling them with the median (for numerical data) or by using other strategies.
@@ -21,7 +21,7 @@ Before developing the models, we performed essential data cleaning tasks:
 - **Feature selection**: We focused on features that are relevant for detecting fraudulent behavior. Features like transaction type, amount, sender/receiver account details, and balance changes were identified as key predictors.
 - **Encoding categorical features**: We transformed categorical variables, such as the transaction type and customer names, using one-hot encoding.
 
-# **2. Model Development**
+### **Model Development**
 
 We implemented four distinct approaches to model fraud detection:
 
