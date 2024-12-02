@@ -1,4 +1,4 @@
-## Analysing Fraudulent Transactions
+#### Analysing Fraudulent Transactions
 
 # Overview
 This project focuses on building a fraud detection system for financial transactions using machine learning. The goal is to predict fraudulent transactions by analyzing various transaction details. The dataset consists of several features, including transaction amount, type, sender and receiver account details, and account balances. The challenge involves detecting fraud in a highly imbalanced dataset, where fraudulent transactions are rare.
